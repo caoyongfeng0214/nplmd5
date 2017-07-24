@@ -2,5 +2,5 @@
 local md5 = commonlib.LibStub("MD5");
 
 return function(str)
-	md5:MD5(str);
+	return md5:MD5(str);
 end;
